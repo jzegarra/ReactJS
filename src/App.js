@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+// import ComponenteClase from './components/ComponentesClase';
+// import COmponentesFuncion from './components/ComponentesFuncion';
+// import PropsEnFunciones from './components/PropsEnFunciones';
+// import PropsEnClases from './components/PropsEnClases';
+ import ElementosyFuncionesProps from './components/ElementosyFuncionesProps';
+
+// import PropsPorDefecto from './components/PropsPorDefecto';
+//import Estados from './components/Estados';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ComponenteClase/>
+      <COmponentesFuncion/> */}
+      {/* <PropsEnFunciones/>
+      <PropsEnClases/> */}
+      <ElementosyFuncionesProps/>
+      {/* <PropsPorDefecto/> */}
+      {/* <Estados/> */}
     </div>
   );
 }
